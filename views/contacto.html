@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="../css/style.css"> 
+</head>
+<body>
+    <header>
+            <!-- ENLACE INTERNO DE MI PAGINA . ENLACE RELATIVO -->
+            <nav id="menu">
+                <div><a title="logo" href="../index.html"> <img src="../img/logo.png" alt="logo"/></a>
+                <ul>
+            <!--ACA quizas no coloque el submenu... lo dejo como practica-->
+            <!--Estoy evaluando agregar un search -->
+                    <li><a href="../views/trabajos.html">TRABAJOS</a></li>
+                    <li><a href="../views/estudio.html">ESTUDIO</a></li>
+                    <li><a href="../views/novedades.html">NOVEDADES</a></li>
+                    <li><a href="../views/contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>  
+        </div>
+    </header>
+      <nav id="contacto">
+        <div class="container">
+            <!---agrego contactos para poder tener un registro de los que ingresan a mi pagina -->
+            <!---....me gustaría repetir el footer en todas las páginas... -->
+            <form>
+                <p>CONTACTANOS:</p><br>
+                <label for="">Nombre: <input type="text" name="nombre" placeholder="Nombre" required></label><br><br>
+
+                <label for="">Apellido: <input type="text" name="apellido" placeholder="Apellido" required></label><br><br>
+
+                <label for="">Email: <input type="email" name="correo" placeholder="nombre@ejemplo.com" required></label><br><br>
+
+                <label for="">Mensaje: <textarea name="mensaje" cols="50" rows="20" placeholder="Escriba su mensaje..."></textarea></label><br><br>
+                
+                <button>Enviar</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+<!-- al pie de la pagina datos de contacto -->
+    <footer>
+        <div class="item">
+             <h5>2001 / 2020</h5> 
+             <p> Diseño Estudio Migliaro</p>
+        </div>
+
+        <div class="item">
+            <h5>Seguinos por las redes sociales</h5>
+            <P>Instagram</P> <!--agregar icono y linkear Instagram...-->
+            <p>Linkedin</p> <!--agregar icono y linkear Linkedin-->
+        </div>
+
+        <div class="item">
+            <h5>Contactanos</h5>
+            <p>Francia 348 - 9000 Comodoro Rivadavia, Chubut</p>
+            <p>contacto@estudiomigliaro.com.ar</p>
+            <p>Cel 54 (297) 156212389</p> 
+            <p>54 (9) 6212389</p> <!--se podra linkear a whatsapp ?? -->
+        </div>
+    </footer>
+</body>
+</html>

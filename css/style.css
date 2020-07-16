@@ -1,0 +1,193 @@
+*{
+ jost;
+}
+
+h5{
+ font-family: jost;
+ color: grey;
+  }
+
+
+#fuente{
+	font-color:grey;
+   }
+
+*{
+    font-family:Jost;
+   }
+
+  /*-- CON ESTE CLASS QUISE HACER UN CAROUSEL, PERO NOSE PORQUE NO ME TOMABA NI LA FOTO.....*/
+ /*-- aplico un color de fondo por si no logro se vea la foto.....*/
+ /*.photos {   
+     background-image: ("./img/valdesogoHOME.jpg");
+     background-color: #7f5a83;
+     background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+     height: 500px;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+}
+*/
+
+/*CON ESTO quiero colocar el logo a la izquierda de la barra navegadora y el resto de los botones a la derecha - en la misma linea ---*/
+/*quiero que al hacer scroll vertical la barra navegadora acompañe ---*/
+
+.logo{
+  position: -webkit-sticky;
+  }
+
+
+ #menu { 
+     display: flex;
+     justify-content: flex-right;
+     list-style-type: none;
+     position: fixed;
+     margin:20px;
+     padding:10px;
+     width: 1300px;
+     background-color:none;
+     position:right;
+     float: right;
+     border-radius: 5px;
+     position: width;
+     }  
+
+    li{
+        display: inline-flex;
+       
+    }
+
+
+/* ------ aplico animaciones -------*/
+  
+#cf {
+    position: relative;
+    padding:50px;
+    margin: 50px;
+    height: 281px;
+    width: 450px;
+    }
+
+#cf img {
+    position:absolute;
+    left: 0px;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out; 
+    transition: opacity 1s ease-in-out;  
+    }
+
+/*------ fin aplico animaciones --------*/
+
+/*------ aplico estilo para poder separar los contenidos --------*/
+
+#novedades { 
+     margin:30px;
+     padding:10px;
+     width: 1300px;
+     background-color:background-color: #f9d29d;
+     background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+     position:right;
+     } 
+
+#trabajos { 
+    margin-bottom: 30px;
+     margin:30px;
+     padding:10px;
+     width: 1300px;
+     background-image: none;
+     position:right;
+     } 
+
+#contacto { 
+     margin:30px;
+     padding:10px;
+     width: 1300px;
+     background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+     position:right;
+     }  
+
+
+#estudio { 
+     margin:30px;
+     padding:10px;
+     width: 1300px;
+     background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+     position:right;
+     }  
+
+ .estudio1 {
+     margin: 100px;
+     background-color: #ccafaf;
+     font-family: Jost;
+     color:white;
+     }
+ 
+ 
+ h3 {
+     display: flex;
+     justify-content: center;
+     font-family: Jost;
+     color:#ccafaf;
+    }
+
+ .container {
+     margin: 100px;
+     border: solid 20px #e5e5e5;
+     width: 500px;
+     height: 700px;
+     position: center;
+     left:420px;
+     background-color: #ccafaf;
+     opacity: 0.5;
+ }
+ 
+ h5{
+     text-transform: uppercase;
+     font-weight: 100;
+ 
+ }
+ 
+ /*esto lo habia pensado para hacer el home... unas grillas contenedoras de imagenes ---*/
+.grid{ 
+     margin: 30px;
+     background-size: cover;
+     background-position: center;
+     position: relative; 
+     height: 650px;
+     display: grid;
+     grid-template-rows: 1fr 3fr 3fr 1fr;
+     grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+     grid-template-areas: 
+     "panel	Imagen	videos	videos	videos"
+     "panel Imagen  videos  videos  videos";
+ }
+
+ .item{
+     margin: 30px;
+ }
+ .video{
+     background-color: #e7dfd5;
+     width: 300px;
+     height: 200px;
+     margin: 20px;
+ }
+ 
+ .espaciado{
+     letter-spacing: 5px;
+ }
+
+ /* el footer me gustaría se pueda aplicar asi tal cual en el index ---*/
+
+ footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    width:100%;
+    margin: auto;
+    font-family: Jost;
+    color:white;
+}
