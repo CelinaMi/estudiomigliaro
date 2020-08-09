@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Diseño Estudio Migliaro</title>
+    <title>Index+B+</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/archivo.css"> <!--aqui puedo linkear a carpeta .css -->
+
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,11 +19,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-    <body>
-     <div class="container">
-                   <div class="row"> <!--ilimitado -->
-                    <div class="col-md-12 col-xm-12 col-xs-12" >
-                      <div> <nav class="navbar navbar-default"><!--se puede quitar el borde -->
+  <body>
+  <div class="container">
+  <div class="row"> 
+  <div class="col-md-12 col-sm12 col-xs12" id="filete"> 
+             <nav class="navbar navbar-default"><!--se puede quitar el borde -->
               <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -32,101 +33,96 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand"> Diseño Estudio Migliaro </a> <!--logo en BARRA NAVEGADORA -->
-                </div>
+                  <a class="navbar-brand" href="./views/index.html"> Diseño Estudio Migliaro </a> <!--logo en BARRA NAVEGADORA -->
+               
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./views/estudio.html">Estudio<span class="sr-only">(current)</span></a></li>
-                    <li><a href="./views/novedades.html">Novedades</a></li>
-                    <li><a href="./views/trabajos.html">Trabajos</a></li>
-                    <li><a href="./views/contacto.html">Contacto</a></li>
+                    <li><a href="./views/index.html">Proyectos</a></li>
+                    <li><a href="./views/perfil.html">Perfil</a></li>
                   </ul>
-                    
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
             </nav>
-          <div class="row"> <!--quiero hacer el carrussel--->
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img src="./img/oriundoHOME.jpg" alt="...">
-          <div class="carousel-caption">
-          <h5>Marcas con impronta</h5>
-          </div>
-        </div>
-        <div class="item">
-          <img src="./img/ipro.jpg" alt="..."> <!--para foto full usar 1920px de ancho-->
-          <div class="carousel-caption">
-            <h5>Identidad y exclusividad</h5><!---input type="text" value="hola" se coloca para agregar formulario,    se puede agregar cuadro de texto o class, o input, por css manejar texto /// tambien se puede agregar otro <div class="form"> el div es un contenedor ...-->
-          </div>
-        </div>
-        <div class="item">
-          <img src="./img/nrgHOME.jpg" alt="...">
-          <div class="carousel-caption">
-           <h5>Marcas que vueltan alto</h5>
-          </div>
-        </div>
-        <div class="item">
-          <img src="./img/otamendi.jpg" alt="...">
-          <div class="carousel-caption">
-            <h5>Trayectoria actualizada</h5>
-          </div>
-        </div>
-        <div class="item">
-          <img src="./img/gutierrez.jpg" alt="...">
-          <div class="carousel-caption">
-           <h5>Una señal en el camino</h5>
-          </div>
-        </div>
     </div>
+  </div><!--row--->
+  </div><!--container--->
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> <!-- fin carousel -->
-      <div class="row" style="margin-top:70px">
-         <div class="col-md-6"><img src="./img/iapg1.jpg"><a href="../views/trabajos.html"><h3>IAPG Jornadas Técnicas Petróleo y Gas del Golfo San Jorge</h3></div>
-         <div class="col-md-6"><img src="./img/toro.jpg"><a href="../views/trabajos.html"><h3>Estancia Laguna del Toro, de Patagonia al mundo</h3></div>
-         </div>
-      <div class="row" style="margin-top:70px">
-         <div class="col-md-6"><img src="./img/ayestaran.jpg"><a href="../views/trabajos.html"><h3>Ayestarán y Asociados Abogados</h3></div>
-         <div class="col-md-6"><img src="./img/gestion.jpg"><a href="../views/trabajos.html"><h3>Gestión Cobranzas Patagonia</h3></div>
-         </div>
+  <div class="container"><!---contiene a todas las imagenes y textos de esta pagina --->
+                <div class="row"> <!---contiene sector texto-->
+                  <div class="titulo"></div>
+                  <p class="lead">Diseñar no es inventar, sino resolver. El diseño de formato simple y complejo
+                          siempre cambiante, sintetiza, trasmite, refleja.</p>
+               </div> 
+
+    <!-----agrego efecto desvanecer por cada una de las imagenes ubicadas de 2 en 2 / aparece texto sobre la imagen ---------->
+                  
+                      <div class="row">
+                            <div class="div-imagen">
+                              <div>
+                                Identidad corporativa<br>
+                                Rediseño Identidad Visual<br>
+                                Papelería Comercial<br>
+                                Diseño Pagina Web<br>
+                              </div>
+                                <div class="col-md-6" id="margen">
+                                <img class="desvanecer" src="./img/02otamendi600x480.jpg"/></div> <!----quiero linkear a otamendi.html-->
+                                </div> <!----cierro desvanecer a otamendi ---->
+                                   
+                             <div class="div-imagen">
+                              <div>
+                                Naming<br>
+                                Marca<br>
+                                Señalética<br>
+                                Carteleria<br>
+                              </div>
+                                <div class="col-md-6" id="margen">
+                                <img class="desvanecer" src="./img/16ipro600x480.jpg"/></div><!----quiero linkear a ipro.html-->
+                            </div> <!--- cierro desvanecer ipro--->
+                            </div><!---cierro row posterior a div-imagen--->
+                      </div>
+
+                            <div class="row">
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/oriundo600x480.jpg"></div> 
+                                <div class="col-md-6" id="margen">  
+                                <img src="./img/toro600x480.jpg"></div>   
+                            </div>
+                         
+                            <div class="row">
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/mehsa600x480.jpg"></div>
+                                <div class="col-md-6" id="margen"> 
+                                <img src="./img/golf600x480.jpg"></div>   
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/12valdesogo600x480.jpg"></div> 
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/iapg600x480.jpg"></div>   
+                            </div> 
+
+                            <div class="row">
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/gestion600x480.jpg" a href="gestion.html"></div><!----quiero linkear a gestion.html /// PERO NO ME FIGURA-->
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/evento600x480.jpg"></div>   
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" id="margen">
+                                <img src="./img/1vanguardia600x480.jpg"></div>
+                                <div class="col-md-6" id="margen"> 
+                                <img src="./img/gutierrez600x480.jpg"></div>   
+                        </div>
     </div>
++Ver mas proyectos
+Podes ver mi CV ( link linkedin <a href="https://www.linkedin.com/in/celina-migliaro-7253b571/"> <img src="./img/linkedin.gif"></a>)<br>
+Podes seguirme en las redes sociales ( link instagram <a href="https://www.instagram.com/celinamigliaro/"> <img src="./img/instagram.gif"></a>)<br>
 
-        <!--quiero agregar el footer y me gustaría colocarle el estilo de las otras paginas... -->              
-<div class="panel panel-default">
-  <div class="panel-body">
-    2020 Diseño Estudio Migliaro 
-  </div>
-</div>
+<a class="ir-arriba icon-arrow-up2" href="head">Ir arriba</a>
 
-
-          </div>
-            
-
-          </div>
-
-      </div>
-    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
